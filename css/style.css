@@ -65,3 +65,6 @@ img{
     border-radius: 5px;
     border-color: gray;
 }
+h3{
+    display: inline;
+}
