@@ -2,13 +2,16 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: 'Mulish';
 }
-header h1{
-    display: inline;
+h1{
+    display: inline-block;
+    vertical-align: middle;
     
 }
 header{
     width: 100%;
+    vertical-align: middle;
 }
 main{
     width: 80%;
@@ -16,7 +19,7 @@ main{
     margin-top: 5%;
 }
 .blu{
-    background-color: blue;
+    background-color:rgb(69,171,234);
     border-radius: 10px;
     color: white;
     font-size:small;
@@ -28,4 +31,37 @@ main{
     color: white;
     font-size:small;
     padding: 5px; 
+}
+.verde{
+    background-color:mediumspringgreen;
+    border-radius: 10px;
+    color: white;
+    font-size:small;
+    padding: 5px;
+}
+.orange{
+    background-color:lightsalmon;
+    border-radius: 10px;
+    color: white;
+    font-size:small;
+    padding: 5px;
+}
+div button{
+    background-color:rgb(69,171,234);
+    padding: 5px;
+    color: white;
+    font-size: small;
+    border-radius: 5px;
+    border-color: rgb(69,171,234);
+}
+img{
+    vertical-align: middle;
+}
+.bianco{
+    background-color:white;
+    padding: 5px;
+    color: gray;
+    font-size: small;
+    border-radius: 5px;
+    border-color: gray;
 }
